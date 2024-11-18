@@ -12,6 +12,6 @@ app.post("/push", express.json(), async (req, res) => {
   res.json({});
 });
 
-app.listen(3031, "0.0.0.0", () => {
-  console.log(`LISTENING ON http://0.0.0.0:3031`);
+app.listen(6969, "0.0.0.0", () => {
+  console.log(`LISTENING ON http://0.0.0.0:6969`);
 });
